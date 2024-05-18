@@ -1,0 +1,12 @@
+HDD Behavior Changes:
+fsutil behavior set disableLastAccess 1
+fsutil behavior set disable8dot3 1 
+
+
+SSD Behavior Changes:
+fsutil behavior set disableLastAccess 0
+fsutil behavior set disable8dot3 1 
+
+
+I am aware this has been floating around for a while, but these are the correct changes you should make. This
+should improve read/write speeds and access times.
